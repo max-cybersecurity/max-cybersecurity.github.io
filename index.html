@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Sky - Ethical Hacking Lab</title>
+    <title>sample phishing site</title>
     <style>
         * {
             margin: 0;
@@ -27,18 +27,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            /*background-image: 
-                radial-gradient(circle at 20% 30%, rgba(10, 25, 41, 0.5) 0%, rgba(10, 25, 41, 0.95) 50%),
-                url('/api/placeholder/1920/1080');
-            background-size: cover;
-            position: relative;
-            overflow-y: auto;
-            padding: 30px 10px;
         }
-        */
-        }
-
-        /* Matrix-style raining code background effect */
         .matrix-code {
             position: fixed;
             top: 0;
@@ -56,7 +45,6 @@
             padding: 30px;
             background: rgba(2, 11, 22, 0.85);
             border-radius: 8px;
-            box-shadow: 0 0 20px rgba(57, 255, 20, 0.2);
             position: relative;
             backdrop-filter: blur(10px);
             border: 1px solid rgba(57, 255, 20, 0.1);
@@ -73,20 +61,7 @@
             font-weight: bold;
             margin-top: 10px;
             margin-bottom: 5px;
-            background: linear-gradient(45deg, var(--neon-green), var(--cyber-blue));
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            text-shadow: 0 0 10px rgba(57, 255, 20, 0.3);
-        }
-        
-        .subtitle {
-            color: #8a9bae;
-            font-size: 14px;
-            margin-bottom: 20px;
-            letter-spacing: 1px;
-            position: relative;
-            display: inline-block;
+            
         }
         
         .subtitle::before, .subtitle::after {
@@ -108,8 +83,7 @@
 
         .logo-icon {
             font-size: 48px;
-            color: var(--neon-green);
-            animation: pulse 2s infinite;
+            color: white
         }
 
         h3 {
@@ -135,7 +109,7 @@
             width: 100%;
             padding: 10px;
             background-color: rgba(16, 36, 57, 0.5);
-            border: 1px solid rgba(57, 255, 20, 0.2);
+            border: 1px solid rgba(0, 0, 0, 0.2);
             border-radius: 5px;
             color: white;
             font-size: 16px;
@@ -143,16 +117,13 @@
 
         input[type="text"]:focus, input[type="password"]:focus {
             outline: none;
-            border-color: var(--neon-green);
-            box-shadow: 0 0 8px rgba(57, 255, 20, 0.4);
         }
 
         input[type="submit"] {
             padding: 8px 16px;
-            background: linear-gradient(45deg, var(--cyber-blue), var(--cyber-purple));
             border: none;
             border-radius: 5px;
-            color: white;
+            color: rgb(0, 0, 0);
             font-size: 16px;
             font-weight: bold;
             cursor: pointer;
@@ -161,7 +132,6 @@
 
         input[type="submit"]:hover {
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(57, 255, 20, 0.3);
         }
 
         .form-footer {
@@ -171,12 +141,6 @@
             font-size: 14px;
         }
 
-        /* Animations */
-        @keyframes pulse {
-            0% { opacity: 0.7; }
-            50% { opacity: 1; }
-            100% { opacity: 0.7; }
-        }
 
         /* Responsive design */
         @media (max-width: 480px) {
@@ -197,9 +161,7 @@
 
         
         <div class="logo">
-            <div class="logo-icon">⚡</div>
-            <h1>SAMPLE PHISHING SITE</h1>
-            <p class="subtitle">Ethical Hacking & Cybersecurity</p>
+            <h1>PHISHING SITE</h1>
         </div>
         
         <div id="content">
@@ -216,7 +178,7 @@
                                 <td><input name="pass" type="password" size="20"></td>
                             </tr>
                             <tr>
-                                <td colspan="2" align="right"><input type="submit" value="login"></td>
+                                <td colspan="2" align="center"><input type="submit" value="login"></td>
                             </tr>
                         </tbody>
                     </table>
